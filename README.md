@@ -27,7 +27,11 @@ npm run dev
 .\pocketbase.exe serve
 ```
 
+Might need to run `npm install next` if you haven't already on your system.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Open [http://localhost:8090](http://localhost:8090) to access PocketBase's interface and view / edit the db.
 
 ### Next.JS documentation
 
