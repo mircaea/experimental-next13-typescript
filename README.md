@@ -7,11 +7,11 @@ Next.js v13 with two features not ready for production:
 
 ### Notes
 
-This project is only for testing next.js version 13 with experimental features.
+I created this repo to test next.js version 13 with experimental features.
 
-This project displays data from a collection of notes ({ title: string; content: string }) and has ability to add new notes./
-It uses SSR and CSR when requiring user input./
-Includes some of the reserved file names (`page, layout, loading, error`) and using navigation parameters (params.id).
+This project displays data from a collection of notes ({ title: string; content: string }) and has ability to add new notes.\
+It uses SSR and CSR when requiring user input.\
+I included some of the reserved file names (`page, layout, loading, error`) and using navigation parameters (params.id).
 
 ### Test locally by running:
 
@@ -37,14 +37,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 They currently have a typo bug: "semver" for "server" in a warning related to using appDir:
 
-```yarn
-warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
-```
+`warn - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.`
 
 ### Deploy on Vercel
 
-[Need to test their recommended deployment option]
+Kept this section because I want to test their recommended deployment option.
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Next.js deployment documentation](https://nextjs.org/docs/deployment)
